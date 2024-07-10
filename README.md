@@ -27,8 +27,9 @@ Pour une compréhension approfondie du projet, de sa conception et de son implé
 ### Vidéo de Démonstration
 Pour voir l'application E-presence en action, regardez notre vidéo de démonstration :
 
-[Lien vers la vidéo de démonstration](https://drive.google.com/file/d/VOTRE_ID_DE_FICHIER/view?usp=sharing)
+[Lien vers la vidéo de démonstration] : (https://drive.google.com/file/d/1BOVQW37CZf8C_pP7Gle_Ad00gAF6nQPV/view?usp=drive_link)
 
 Cette vidéo présente les principales fonctionnalités de l'application et montre comment elle est utilisée dans un environnement réel à l'ENSAO.
 
+## Equipe de Projet
 Développé par ALLAOUI Abir , ABDELLAOUI Hajar , AZAM Nadia , DAANOUNI Hafsa  dans le cadre d'un projet de fin d'études à l'ENSA Oujda.
