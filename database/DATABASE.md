@@ -30,6 +30,15 @@
 - email (VARCHAR(50), NOT NULL)
 - niveau (VARCHAR(50), NOT NULL)
 
+### codeqr
+
+- id (INT, Primary Key, Auto Increment)
+- id_prof (INT, NOT NULL)
+- id_module (INT, NOT NULL)
+- date (DATETIME, NOT NULL)
+- id_niveau (INT, NOT NULL)
+- salle (VARCHAR(20), NOT NULL)
+
 ### user
 - id (INT, Primary Key, Auto Increment)
 - nom (VARCHAR(20), NOT NULL)
@@ -59,6 +68,8 @@
 - La colonne 'role' dans la table 'user' détermine le type d'utilisateur.
 - Il existe une contrainte d'unicité sur l'email du professeur.
 - La table `logout_timestamps` enregistre les temps de déconnexion pour chaque utilisateur et appareil.
+- Chaque code QR est associé à un professeur, un module, un niveau et une salle.
+- La table codeqr est liée aux tables prof, module, et niveau.
 
 ## Clés étrangères
 
@@ -67,6 +78,9 @@
 - `scanner.id_codeqr` fait référence à `codeqr.id`
 - `scanner.id_student` fait référence à `student.id`
 - `user_devices.user_id` fait référence à `user.id`
+- codeqr.id_prof fait référence à prof.id
+- codeqr.id_module fait référence à module.id
+- codeqr.id_niveau fait référence à niveau.id
 
 ## Notes supplémentaires
 
