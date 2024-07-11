@@ -116,3 +116,11 @@ CREATE TABLE logout_timestamps (
   logout_time DATETIME DEFAULT NULL,
   PRIMARY KEY (user_id,device_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- Insertion des données
+
+INSERT INTO `admin` (`id`, `nom`, `prenom`, `email`, `password`) VALUES
+(1, 'admin', 'admin', 'admin@gmail.com', 'admin123');
+
+INSERT INTO `user` (`id`, `nom`, `prenom`, `email`, `password`, `role`) VALUES
+(1, 'admin', 'admin', 'admin@gmail.com', 'admin123', 'admin');
