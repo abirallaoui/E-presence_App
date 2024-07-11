@@ -25,6 +25,12 @@ E-presence est une application innovante de gestion des présences développée 
 Pour initialiser la base de données :
 
 - Assurez-vous que MySQL est installé et en cours d'exécution sur votre système.
+- Lors de l'initialisation de la base de données, un compte administrateur par défaut est automatiquement créé avec les identifiants suivants :
+
+- Email : admin@gmail.com
+- Mot de passe : admin123
+
+**Important** : Pour des raisons de sécurité, il est fortement recommandé de changer le mot de passe de ce compte administrateur immédiatement après la première connexion.
 
 ## Documentation et Démonstration
 
