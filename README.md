@@ -17,6 +17,15 @@ E-presence est une application innovante de gestion des présences développée 
 - Backend : Node.js avec Express
 - Base de données : MySQL
 
+## Configuration de la base de données
+
+- Les scripts SQL pour créer la structure de la base de données sont disponibles dans le fichier `database/bdd.sql`.
+- Pour une description détaillée de la structure de notre base de données, y compris les tables, relations, et contraintes, veuillez consulter le fichier `database/DATABASE.md`.
+
+Pour initialiser la base de données :
+
+- Assurez-vous que MySQL est installé et en cours d'exécution sur votre système.
+
 ## Documentation et Démonstration
 
 ### Rapport du Projet
