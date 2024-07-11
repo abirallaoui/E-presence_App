@@ -32,4 +32,4 @@ Pour voir l'application E-presence en action, regardez notre vidéo de démonstr
 Cette vidéo présente les principales fonctionnalités de l'application et montre comment elle est utilisée dans un environnement réel à l'ENSAO.
 
 ## Equipe de Projet
-Développé par ALLAOUI Abir , ABDELLAOUI Hajar , AZAM Nadia , DAANOUNI Hafsa  dans le cadre d'un projet de fin d'études à l'ENSA Oujda.
+Développé par ALLAOUI Abir , ABDELLAOUI Hajar , AZAM Nadia , DAANOUNI Hafsa  dans le cadre d'un projet de fin d'année à l'ENSA Oujda.
